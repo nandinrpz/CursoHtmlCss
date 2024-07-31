@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cor e imagem de fundo</title>
+    <style type="text/css">
+
+        /*.fundo {
+            background-color: aquamarine;
+            color: white;
+        }*/
+        h1 {
+            background-image: url('imagem/yoshi.png');
+            /*
+            repeat-x, repeat-y, no-repeat, repeat
+            */
+            background-repeat: no-repeat;
+
+            /*
+            scrool, fixed
+            */
+            background-attachment: fixed;
+
+            /*
+            primeiro valor: left, center, right
+            segundo valor: top center, bottom
+            */
+            background-position: left bottom ;
+        }
+
+        .fundo{
+            background: blue url('imagem/yoshi.png') no-repeat fixed center center;
+        }
+
+    </style>
+</head>
+<body class="fundo">
+
+    <h1 class="h1">Conteúdo de título 1</h1>
+
+    
+</body>
+</html>
