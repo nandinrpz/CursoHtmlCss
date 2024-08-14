@@ -26,6 +26,7 @@ body{
     width: 920px;
     margin: 0 auto;
     padding: 15px;
+
 }
 #area-postagens {
     width: 660px;
@@ -45,6 +46,11 @@ body{
     background: white;
     padding: 10px;
     margin-bottom: 20px;
+}
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border:1px dotted #ccc ;
 }
 #rodape {
     clear: both;
@@ -89,6 +95,11 @@ a:link, a:visited {
  }
  h2 {
     color: #f7b600;
+ }
+ h3 {
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
  }
  .data-postagem {
     font-size: 0.8em;
