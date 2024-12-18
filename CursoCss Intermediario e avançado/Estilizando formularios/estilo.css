@@ -24,6 +24,10 @@ input[text] {
     width: 20em;
 
 }
+input[radio]{
+    width: auto;
+    margin-right: 1em;
+}
 
 textarea {
     width: 20em;
