@@ -1,5 +1,5 @@
 var parametro = prompt("Digite um número");
-
+//com o comando prompt, precisamos modificar de string para int ou float
 switch (parseInt(parametro)) {
     case 1:
         document.write("parametro 1");
